@@ -7,6 +7,7 @@ def hello_user():
                 break
     except KeyboardInterrupt:
         print("Пока!")
+if __name__ == "__hello_user__":
     hello_user()
 
 

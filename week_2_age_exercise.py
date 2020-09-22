@@ -1,4 +1,5 @@
-def main(user_age = int(input("Укажите свой возраст \n"))):
+def main():
+    user_age = int(input("Укажите свой возраст \n"))
     if 3 < user_age <= 6:
         return print('Вы должны ходить в детский сад!')
     elif 6 < user_age <= 17:
@@ -9,4 +10,5 @@ def main(user_age = int(input("Укажите свой возраст \n"))):
         return print('Вы должны работать!')
     else:
         return print('Вы пенсионер')
+if __name__ == "__main__":
     main()

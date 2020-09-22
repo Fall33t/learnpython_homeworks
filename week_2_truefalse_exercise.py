@@ -1,4 +1,6 @@
-def main(one = input("Число строка1 \n"), two = input("Число строка2 \n")):
+def main():
+    one = input("Число строка1 \n")
+    two = input("Число строка2 \n")
     if one != str(one) or two != str(two):
         return print(0)
     elif one == two:
@@ -7,4 +9,5 @@ def main(one = input("Число строка1 \n"), two = input("Число с�
         return print(2)
     elif two == "learn":
         return print(3)
+if __name__ == "__main__":
     main()

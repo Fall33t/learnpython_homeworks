@@ -4,4 +4,5 @@ def hello_user():
         if ask == 'Хорошо':
             print('Круто')
             break
+if __name__ == "__hello_user__":
     hello_user()

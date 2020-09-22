@@ -5,6 +5,7 @@ def ask_user():
         if ask in ask_answ:
             print(ask_answ[ask])
             break
+if __name__ == "__ask_user__":
     ask_user()
 
 
